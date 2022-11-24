@@ -1,0 +1,100 @@
+*{
+margin: 0 0;
+padding: 0 0;
+}
+body{
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fix{
+  clear: both;
+  float: none;
+}
+a{
+  text-decoration: none;
+  color: #FFAF00;
+}
+
+
+
+
+.logo{
+  width:10%;
+  float:left;
+  font-size: 40px;
+  color:aliceblue;
+  margin-left: 2% ;
+}
+.menu{
+  margin-top: 3%;
+  margin-left: 50%;
+  line-height: 80px;
+}
+.menu ul{
+  list-style-type: none;
+  
+}
+.menu ul li{
+  display: inline;
+  padding: 0 8%;
+}
+.layer1{
+  font-size: 20px;
+}
+.layer2{
+  margin: 8% 0;
+  text-align: center;
+  font-size: 100px;
+  color: #F9E7BF;
+}
+.contact{
+  text-align: center;
+  font-size: 20px;
+}
+.co ul li a{
+  padding: 0 10%;
+}
+@media only screen and (max-width:768px) {
+  .layer2{
+    font-size: 30px;
+    margin: 63% 0;
+  }
+  .layer1{
+    font-size: 13px;
+    color: white;
+  }
+  .menu ul li a{
+    color: #F9E7BF;
+  }
+  .menu ul li{
+    padding: 0 1%;
+  }
+  .menu{
+    margin: 0 0;
+    display: inline;
+    text-align: right;
+    padding: 0 0;
+  }
+  a{
+    color:#F9E7BF;
+  }
+  .logo{
+    float: left;
+    width: 20%;
+    margin-top: 5%;
+  }
+  body{
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .layer3{
+    margin :10px 0;
+  }
+  .contact{
+    margin: 0 0;
+    padding: 0 5%;
+  }
+  .contact a{
+    color: #F9E7BF;
+  }
+}
